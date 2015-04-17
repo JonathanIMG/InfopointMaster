@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
+    <Content Include="wErikaPrueba.aspx" />
     <Content Include="wPrueba.aspx" />
     <Content Include="wPruebJonathan.aspx" />
   </ItemGroup>
@@ -104,6 +105,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="wErikaPrueba.aspx.designer.vb">
+      <DependentUpon>wErikaPrueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wErikaPrueba.aspx.vb">
+      <DependentUpon>wErikaPrueba.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="wPrueba.aspx.designer.vb">
       <DependentUpon>wPrueba.aspx</DependentUpon>
