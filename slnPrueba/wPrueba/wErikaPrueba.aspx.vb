@@ -7,8 +7,29 @@
 
 
     End Sub
+#Region "PROPIEDADES"
+    Public WriteOnly Property pBoolIniCtr As Boolean
+        Set(value As Boolean)
+            If value Then
 
+            End If
+        End Set
+    End Property
+    Dim _IdPagina As Integer
+    Public Property pIdPagina As Integer
+        Get
+            Return _IdPagina
+        End Get
+        Set(value As Integer)
+            _IdPagina = value
+        End Set
+    End Property
+
+#End Region
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Label1.Text = "Hola Mundo"
     End Sub
+
+
+
 End Class
