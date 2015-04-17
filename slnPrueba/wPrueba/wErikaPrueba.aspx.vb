@@ -31,6 +31,9 @@
         Me.Label2.Text = "JOnathan"
         Me.Label3.Text = "JOnathan 1"
 
-
+        Me.Label3.Text = "JOnathan 1"
+        Me.Label3.Text = "JOnathan 1"
+        Me.Label3.Text = "JOnathan 1"
+        Me.Label3.Text = "JOnathan 1"
     End Sub
 End Class
